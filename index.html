@@ -2,11 +2,13 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Task1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Task 2</title>
 </head>
 <body>
 <h1>HTML Basics</h1>
-<h3>List</h3>
+<h3>Lists</h3>
 <h4>Ordered list</h4>
    <ol>
        <li>first item</li>
@@ -23,8 +25,80 @@
       <li>D</li>
       <li>E</li>
   </ul>
-<div style="background-color: green">
+<div class="myColor">
     <h4>Description List</h4>
+    <dl>
+        <dt>Name</dt>
+        <dd>Godzilla</dd>
+        <dt>Born</dt>
+        <dd>1952</dd>
+        <dt>Birthplace</dt>
+        <dd>Japan</dd>
+        <dt>Color</dt>
+        <dd>Green</dd>
+    </dl>
+    <h4>Nested list</h4>
+    <ul>
+        <li>List item one</li>
+        <li>List item two with subitems:
+           <ul>
+               <li>Subitem 1
+                   <ul>
+                       <li>SubSubitem 1</li>
+                       <li>SubSubitem 2</li>
+                   </ul>
+               </li>
+               <li>Subitem 2</li>
+           </ul>
+        </li>
+        <li>Final list item</li>
+    </ul>
 </div>
+<h4>List with links</h4>
+<ul>
+    <li><a href="https://github.com/Pashebor/fe-rsu-pavel_demyanov">Home</a></li>
+    <li><a href="http://kanobu.ru/">News</a></li>
+    <li><a href="https://mail.google.com/">Contact</a></li>
+    <li><a href="https://onedrive.live.com/?authkey=%21AKTNCG1KEWyIs3I&id=36C7070792A50304%2110651&cid=36C7070792A50304">About</a></li>
+</ul>
+<hr>
+<h3>Paragraphs</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+<p>Duis id mauris ac nunc interdum semper. <br>
+    Nullam ornare nisi in eros condimentum dignissim. <br>
+    Morbi convallis mi quis velit porttitor accumsan. <br>
+    Pellentesque lacinia nibh non pretium vulputate. <br>
+    </p>
+<hr>
+<h3>Tables</h3>
+<table>
+    <thead>
+      <tr>
+        <th>First name</th>
+        <th>Last name</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+    </tr>
+    </tbody>
+</table>
+<hr>
+<h3>Image</h3>
+<img src="https://pixabay.com/static/uploads/photo/2015/12/03/10/43/cat-1074657_960_720.jpg" alt="">
+<hr>
+<h3>Pre tag</h3>
+<pre> if(time = 20){
+        greeting = "Good Day";
+    } else {
+        greeting = "Good Evening";
+    }
+</pre>
 </body>
 </html>
