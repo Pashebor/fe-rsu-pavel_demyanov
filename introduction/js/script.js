@@ -1,4 +1,7 @@
-var firstName = 'pavel', lastName = 'demyanov', age = '13';
+
+var firstName='pavel';
+var lastName='demyanov'; 
+var age='13';
 
 function showNames(){
     alert(firstName);
