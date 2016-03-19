@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+}
+#logo{
+    width: 55%;
+    background-color: saddlebrown;
+}
+.nav{
+    width: 15%;
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+}
+p{
+    color: white;
+}
+iframe{
+    width: 100%;
+    height: 410px;
+}
+img{
+    margin: 0 20% auto
+}

@@ -104,9 +104,10 @@
     </tbody>
 </table>
     <hr>
-<fieldset>
-    <legend>Personal data</legend>
+
     <form action="url" method="post" enctype="multipart/form-data">
+      <fieldset>
+       <legend>Personal data</legend>
         <p><label for="surname">Surname</label>
         <input type="text" id="surname" name="surname"></p>
         <p><label for="firstName">First Name</label>
@@ -125,12 +126,12 @@
         <p><label for="country">Country of Residence</label>
             <input list="countries" id="country" name="countries">
             <datalist id="countries">
-                <option value="Russia">
-                <option value="Nigeria">
-                <option value="Japan">
-                <option value="Great Britain">
-                <option value="Mongolia">
-                <option value="China">
+                <option label="Russia" value="Russia">
+                <option label="Nigeria" value="Nigeria">
+                <option label="Japan" value="Japan">
+                <option label="Great Britain" value="Great Britain">
+                <option label="Mongolia" value="Mongolia">
+                <option label="China" value="China">
             </datalist>
         </p>
         <p>City
@@ -159,17 +160,17 @@
             <input type="range" min="0" max="1000000" value="0" name="salary" id="salary">
         </p>
         <textarea style="width: 25%; height: 150px" placeholder="Tell us about yourself..." ></textarea>
-    </form>
+
 </fieldset>
 <fieldset>
     <legend>Contact Information</legend>
-    <form action="url" method="post" enctype="text/plain">
+
         <p><label for="site">Site <input type="text" id="site" name="site"></label></p>
         <p><label for="email">Email <input type="email" id="email" name="email"></label></p>
         <p><label for="phone">Phone <input type="number" id="phone" name="phone"></label></p>
-    </form>
+
 </fieldset>
-    <form action="url">
+
       <p><label for="pass">Password <input type="password" id="pass" name="pass" required></label></p>
       <input type="submit">
       <input type="reset">

@@ -1,0 +1,20 @@
+body{
+    background: url("https://www.thetruemayhem.com/wp-content/uploads/musicpro/bd-uploads/body_bg_img_background2.jpg") no-repeat, fixed ;
+}
+table{
+    width: 100%;
+    height: 390px;
+}
+#navRow td{
+    text-align: center;
+    background: saddlebrown;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+iframe{
+    height: 325px;
+    width: 100%;
+}
