@@ -1,0 +1,35 @@
+h1{
+    font-family: sans-serif;
+    color: red;
+    font-size: 20pt;
+    background-color: yellow;
+}
+
+#hello{
+    text-align: center;
+    font-family: serif;
+    color: rgb(122, 32, 44);
+    font-weight: 500;
+}
+.underHello{
+    font-size: 30pt;
+    font-family: sans-serif;
+    color: brown;
+}
+#underUnderHello{
+    width: 50px; height: 50px;
+    margin: 20px 20px;
+    padding: 30px;
+    background-color: blueviolet;
+}
+p{
+    background-color: #000000;
+    color: #ffffff;
+}
+p.image{
+    height: 200px;
+    background-image: url("http://www.cruzo.net/user/images/k/d760fbd8f50d9b92dc054ee8390df166_617.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(255,255,255);
+}
