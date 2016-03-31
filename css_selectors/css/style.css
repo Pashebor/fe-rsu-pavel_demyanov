@@ -1,0 +1,24 @@
+table thead, tbody {
+    background-color: #e3eaf3;
+}
+thead{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #868697;
+}
+tbody{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #4c637b;
+}
+td{
+    padding: 10px;
+}
+
+table tbody tr:nth-child(2n + 1){
+    background-color: #f2f6fa;
+}
+
+
+
