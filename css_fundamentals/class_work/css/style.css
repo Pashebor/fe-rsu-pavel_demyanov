@@ -1,0 +1,107 @@
+@font-face {
+    font-family: OpenSansCondensedLight;
+    src: url("../fonts/OpenSans-CondLight.ttf");
+}
+
+body {
+    background-color: #333;
+    background: repeating-linear-gradient(45deg, #f6f6f6 0, #f6f6f6 5%, #fff 0, #fff 50%) 0 / 20px 20px;
+}
+h1 {
+    color: #333;
+    font-family: OpenSansCondensedLight;
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1:hover {
+    font-size: 30pt;
+}
+
+h1:hover:before,
+h1:hover:after {
+    font-style: italic;
+    font-size: 17pt;
+}
+
+h1:hover:before {
+    content: "some ";
+}
+
+h1:hover:after {
+    content: " by NobodyRocks";
+}
+.row{
+ width: 320px;
+ height: 320px;
+ margin-left: calc(50% - 160px);
+}
+
+.row div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 4px 2px;
+    font-family: OpenSansCondensedLight;
+    font-size: 20pt;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #3498db;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.highlight:hover{
+   background-color: white;
+    color: #3498db;
+}
+
+
+.fade:hover{
+    opacity: 0;
+}
+
+
+.boom:hover{
+    transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    opacity: 0;
+}
+
+
+.focus:hover{
+   width: 50px;
+   height: 50px;
+   padding: -50px -50px;
+   text-align: center;
+   line-height: 50px;
+   margin-left: 27px;
+   margin-right: 27px;
+}
+
+.rotate:hover{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+
+.knit:hover{
+    height: 0;
+}
+
+.shrink:hover{
+    transform: scale(0);
+    -webkit-transform: scale(0);
+}
+.squeeze:hover{
+    transform: scale(1.5, 0.0);
+    -webkit-transform: scale(1.5, 0.0);
+}
+.deform:hover{
+    -webkit-transform: skew(45deg, 45deg);
+    transform: skew(45deg, 45deg);
+}
