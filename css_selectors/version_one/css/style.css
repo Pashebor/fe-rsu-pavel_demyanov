@@ -1,0 +1,36 @@
+table{
+    margin: auto;
+}
+table thead, tbody {
+    background-color: #e3eaf3;
+}
+thead{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #868697;
+}
+thead td{
+    padding: 8px 15px;
+}
+tbody{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #4c637b;
+    text-transform: capitalize;
+}
+tbody td{
+    padding: 20px 15px;
+}
+
+tbody tr:nth-child(2n + 1){
+    background-color: #f2f6fa;
+}
+tbody tr:hover{
+    background-color: #e2e5e9;
+}
+
+
+

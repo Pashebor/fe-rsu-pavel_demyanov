@@ -1,0 +1,36 @@
+#myTable{
+    margin: auto;
+}
+.myHead, .myBody {
+    background-color: #e3eaf3;
+}
+.myHead{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 10pt;
+    text-transform: uppercase;
+    color: #868697;
+}
+.myHead td{
+    padding: 8px 15px;
+}
+.myBody{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #4c637b;
+    text-transform: capitalize;
+}
+.myBody td{
+    padding: 20px 15px;
+}
+
+.myBody tr:nth-child(2n + 1){
+    background-color: #f2f6fa;
+}
+.myBody tr:hover{
+    background-color: #e2e5e9;
+}
+
+
+
