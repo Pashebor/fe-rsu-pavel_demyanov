@@ -1,0 +1,38 @@
+#frame{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #cccccc;
+}
+.circle {
+    margin-left: calc(50% - 75px);
+    margin-top: 25px;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-image: radial-gradient(#00bc9e, #00bc9e);
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background: #575ce8;
+    background-image: -webkit-linear-gradient(top, #888fcb 0%, #7f86d1 20%, #575ce8 50%, #7f86d1 80%, #7593df 90%, #888fcb 100%);
+    background-image: linear-gradient(top, #888fcb 0%, #7f86d1 10%, #575ce8 50%, #7f86d1 90%, #888fcb 100%);
+    border-style:  double;
+    border-radius: 10px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 15pt;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: auto;
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px 5px #cbf1f5;
+    -webkit-box-shadow: 0 0 10px 5px #cbf1f5;
+}
