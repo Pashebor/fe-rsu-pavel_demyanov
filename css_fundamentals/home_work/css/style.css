@@ -37,3 +37,24 @@
     box-shadow: 0 0 10px 5px #cbf1f5;
     -webkit-box-shadow: 0 0 10px 5px #cbf1f5;
 }
+
+/*Adaptive text*/
+p{
+    width: 100%;
+    margin: auto;
+    background-color: #cad8d0;
+    font-family: serif;
+    font-size: 15pt;
+    padding: 12px;
+}
+
+@media screen and (max-device-width: 500px){
+    p{
+        font-size: 60pt;
+        padding: 20px;
+    }
+
+}
+
+
+
