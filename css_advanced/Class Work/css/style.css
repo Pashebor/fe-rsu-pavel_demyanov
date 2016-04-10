@@ -112,7 +112,7 @@ section {
     border-bottom: none;
     box-shadow: -2px -1px 2px #b5b5b5, 2px -1px 2px #b5b5b5;
 }
-.tabs input:checked + label{
+.tabs #tab1:checked + label{
     border: 1px solid #4454bf;
     border-bottom-color: #815acf;
     box-shadow: -2px -1px 2px #b5b5b5, 2px -1px 2px #b5b5b5, inset 0 -10px 8px -6px #815acf;
