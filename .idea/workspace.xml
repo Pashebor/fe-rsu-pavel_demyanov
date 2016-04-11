@@ -25,7 +25,7 @@
       <file leaf-file-name="task_1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css_advanced/Class Work/task_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -35,7 +35,7 @@
       <file leaf-file-name="task_2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css_advanced/Class Work/task_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
               <folding />
             </state>
@@ -55,18 +55,18 @@
       <file leaf-file-name="task_3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css_advanced/Class Work/task_3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css_advanced/Home Work/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.044293016">
-              <caret line="361" column="23" selection-start-line="361" selection-start-column="23" selection-end-line="361" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="388" column="1" selection-start-line="388" selection-start-column="1" selection-end-line="388" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -82,7 +82,7 @@
       <file leaf-file-name="task_3.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css_advanced/Home Work/task_3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.9230769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#h2#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="task_2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css_advanced/Home Work/task_2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
               <folding />
             </state>
@@ -106,6 +106,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-7.1923075">
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layout/Basic Float/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -219,8 +229,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,8 +247,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forEpam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forEpam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,11 +276,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\forEpam\layout\fonts" />
       <recent name="C:\forEpam\css_advanced\Home Work\images" />
       <recent name="C:\forEpam\css_selectors\version_two" />
       <recent name="C:\forEpam\html_fundamentals\Task2\menu3" />
       <recent name="C:\forEpam\html_fundamentals\Task2\discography" />
-      <recent name="C:\forEpam\html_fundamentals\Task2\menu2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\forEpam\css_advanced\Class Work" />
@@ -312,7 +336,7 @@
     <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14199395" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14350453" sideWeight="0.49429038" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -348,13 +372,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css_selectors/version_two/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css_fundamentals/home_work/image_and_button.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -623,7 +640,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css_advanced/Class Work/task_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
@@ -631,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css_advanced/Class Work/task_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding />
         </state>
@@ -657,23 +674,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css_advanced/Class Work/task_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css_advanced/Home Work/task_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css_advanced/Home Work/task_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
           <folding />
         </state>
@@ -691,7 +700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css_advanced/Home Work/task_3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.9230769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#h2#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -701,8 +710,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css_advanced/Home Work/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.044293016">
-          <caret line="361" column="23" selection-start-line="361" selection-start-column="23" selection-end-line="361" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="388" column="1" selection-start-line="388" selection-start-column="1" selection-end-line="388" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css_advanced/Home Work/task_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/Basic Float/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
