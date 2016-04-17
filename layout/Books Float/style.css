@@ -411,14 +411,15 @@ h1{
 
 .help-and-configs{
     float: right;
-    /*display: inline-block;*/
-    padding: 0.85%;
+    width: 55px;
+    height: 45px;
+    display: block;
+    line-height: 45px;
     background-color: #1f2637;
     color: white;
     font-size: 16pt;
     text-align: center;
     font-family: FontAwesome;
-    align-: center;
 }
 .help-and-configs:hover{
     background-color: #15a4fa;
