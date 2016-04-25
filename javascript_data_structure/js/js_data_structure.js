@@ -245,7 +245,7 @@ function my() {
     document.getElementById('div22').innerHTML = 'Array with removed specific element: ' + '[' + removeSpecEl() + ']';
 
     /*15 Get a random item from an array*/
-    function getRandItem() {
+    function getRandItem(array) {
         var array = ['one', 'two', 'three', 'four', 'five'];
         document.getElementById('div23').innerHTML = 'Array: ' + array;
         var rand = Math.floor(Math.random() * array.length);
@@ -328,6 +328,7 @@ function my() {
             return chr.toUpperCase();
         });
     }
+
     console.log('21. JavaScript function to convert a string into camel case');
     console.log('Test data: ');
     console.log('console.log(camelize("Java Script"));');
