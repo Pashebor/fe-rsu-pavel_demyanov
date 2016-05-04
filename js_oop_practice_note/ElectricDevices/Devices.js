@@ -10,11 +10,19 @@ Device.prototype.getName = function () {
 };
 
 Device.prototype.getVoltage = function () {
-    if (this.plug === 'in') {
+    if (this.plug === true) {
        return this.volt;
-    } else if (this.plug === 'out'){
+    } else if (this.plug === false){
         return this.volt = 0;
     }
+};
+
+Device.prototype.getPluged = function () {
+   if (this.plug === true){
+       return this.name;
+   } else {
+       return '';
+   }
 };
 
 Device.prototype.findDevice = function (what) {

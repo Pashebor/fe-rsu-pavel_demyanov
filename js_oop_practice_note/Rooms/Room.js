@@ -13,11 +13,11 @@ Room.prototype.getVoltage = function () {
     }
     return totalVoltage;
 };
-Room.prototype.getName = function () {
-    var allDevices = '';
+Room.prototype.getNames = function () {
+    var allDevices = [];
     var i;
     for (i = 0; i < this.devices.length; i += 1) {
-        allDevices += this.devices[i].getName();
+        allDevices.push(this.devices[i].getName());
     }
     return allDevices;
 };
@@ -34,8 +34,22 @@ Room.prototype.search = function (what) {
     })
 };
 
-
+Room.prototype.getConnectedDevices = function () {
+    var connectedDevices = [];
+    var  i;
+    for (i = 0; i < this.devices.length; i += 1) {
+        connectedDevices.push(this.devices[i].getPluged());
+    }
+    return connectedDevices;
+};
 
 Room.prototype.showDevicesInTheRoom = function () {
-   console.info(this.getName());
+   console.info('Devices in the '+ this.getName() + ' are ' + this.getNames().toString());
 };
+
+Room.prototype.showConnectedDevices = function () {
+    var str = this.getConnectedDevices().toString().replace(',', '');
+    str = str.slice(0, -1);
+    console.info('Connected devices in the ' + this.getName() + ' are ' + str + '.');
+};
+

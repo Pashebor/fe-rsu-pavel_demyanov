@@ -7,4 +7,5 @@ Application.prototype.start = function () {
     bedroom.showVoltage();
     bedroom.search('LG');
     bedroom.showDevicesInTheRoom();
+    bedroom.showConnectedDevices();
 };
