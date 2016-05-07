@@ -1,10 +1,21 @@
 function Room(name, devices) {
     'use strict';
+    this.name = name;
     this.devices = devices;
     Device.call(this, name);
 }
 
 Room.prototype = Object.create(Device.prototype);
+
+Room.prototype.getRoomName = function () {
+    'use strict';
+    return this.name;
+};
+
+Room.prototype.showRoomName = function () {
+    'use strict';
+    console.info(this.getRoomName());
+};
 
 Room.prototype.getVoltage = function () {
     'use strict';
