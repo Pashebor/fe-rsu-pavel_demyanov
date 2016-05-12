@@ -1,0 +1,20 @@
+@font-face {
+    font-family: TomsHandWriten;
+    src: url('../fonts/280747_0_0.ttf');
+    font-weight: normal;
+}
+
+body{
+    width: 100%;
+    font-family: TomsHandWriten;
+}
+
+h1{
+    font-family: TomsHandWriten;
+    font-size: 35pt;
+}
+.container{
+    width: 390px;
+    margin-top: 20px;
+    margin-left: calc(50% - 195px);
+}
