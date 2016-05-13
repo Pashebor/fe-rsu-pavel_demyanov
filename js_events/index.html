@@ -3,11 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/addToDo.js"></script>
     <title>ToDo List</title>
 </head>
 <body>
   <div class="container">
-      <h1 style="text-align: center">ToDO List</h1>
+      <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6"><h1 id="header">ToDO List</h1></div>
+          <div class="col-lg-3"></div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+              <div class="frame">
+                 <ul id="list">
+                  <li>
+                     <input type ="checkbox" value="1" id="check1" class="chkBox" onchange="removeItems(this.id)">
+                     <label for='check1'>ToDO Item 1</label>
+                  </li>
+                  <li>
+                     <input type ="checkbox" value="2" id="check2" class="chkBox" onchange="removeItems(this.id)">
+                     <label for='check2'>ToDO Item 1</label>
+                  </li>
+                  <li>
+                     <input type ="checkbox" value="3" id="check3" class="chkBox" onchange="removeItems(this.id)">
+                     <label for='check3'>ToDO Item 1</label>
+                  </li>
+                  <li>
+                     <input type ="checkbox" value="4" id="check4" class="chkBox" onchange="removeItems(this.id)">
+                     <label for='check4'>ToDO Item 1</label>
+                  </li>
+                  <li>
+                     <input type ="checkbox" value="5" id="check5" class="chkBox" onchange="removeItems(this.id)">
+                     <label for='check5'>ToDO Item 1</label>
+                  </li>
+                 </ul>
+              </div>
+              <br>
+              <!--Nothing to Add-->
+              <div class="popupWindow" id="nothing">
+                  <h4>Nothing to Add!!!</h4>
+                  <hr>
+                  <div class="row">
+                     <div class="col-lg-4"></div>
+                      <div class="col-lg-4"><button type="button" class="btn btn-default" id="btnClose">Close</button></div>
+                     <div class="col-lg-4"></div>
+                  </div>
+                  <br>
+              </div>
+              <!--Popup window-->
+              <div class="popupWindow" id="popup">
+                  <h4>Are you sure?</h4>
+                  <hr>
+                  <div class="question" id="quest"></div>
+                  <div class="row">
+                      <div class="col-lg-6"><button type="button" class="btn btn-default" id="btnYes">Yes</button></div>
+                      <div class="col-lg-6"><button type="button" class="btn btn-default" id="btnNo">No</button></div>
+                  </div>
+                  <br>
+              </div>
+              <div class="row">
+                  <div class="col-lg-8"><input type="text" class="form-control" placeholder="ToDo text" id="textInpt"></div>
+                  <div class="col-lg-4"><button type="button" class="btn btn-default" id="btnAdd">Add</button></div>
+          </div>
+              <br>
+          <div class="row">
+             <div class="col-lg-12"><button type="button" class="btn btn-default" id="btnDelete">Delete notes</button></div>
+          </div>
+      </div>
   </div>
+</div>
 </body>
 </html>
