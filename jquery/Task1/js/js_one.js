@@ -1,6 +1,5 @@
 $(document).ready(function () {
     'use strict';
-     var i;
      var container = $('.container');
      var invisibleInvisibility = $('.invisibleInvisibility');
      var box = $('.box');
@@ -42,5 +41,4 @@ $(document).ready(function () {
          'border' : '10px solid transparent',
          'border-top-color' :  '#ffcd00'
      });
-/*oneBefore[0].style.cssText = 'content: ""; display: inline-block;  margin-left: 20px; margin-bottom: 0px; margin-top: 01; border: 10px solid transparent; border-top-color:  #ffcd00;';*/
 });
