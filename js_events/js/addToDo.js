@@ -9,6 +9,8 @@ function addItem() {
     var quest = document.getElementById('quest');
     var popupNothing = document.getElementById('nothing');
     var btnClose = document.getElementById('btnClose');
+    var btnDelete = document.getElementById('btnDelete');
+    var checkboxes = document.getElementsByClassName('chkBox');
 
     function countItems(listID) {
         var i = 0, itemsCount = 0;
@@ -33,19 +35,19 @@ function addItem() {
         popupNothing.style.display = 'none';
         popup.style.display = 'none';
         textInput.value = '';
-        quest.removeChild(quest.childNodes[0]);
+        if (quest.firstChild) {
+           quest.removeChild(quest.childNodes[0]);
+        }
     }
 
     function addApprove() {
         var count = countItems(list) + 2;
         var li = document.createElement('li');
         var inputChkbx = document.createElement('input');
+        var label = document.createElement('label');
         inputChkbx.type = 'checkbox';
         inputChkbx.id = 'check' + count;
-        inputChkbx.value = count;
         inputChkbx.className = 'chkBox';
-        inputChkbx.setAttribute('onchange', 'removeItems(this.id)');
-        var label = document.createElement('label');
         label.htmlFor = 'check' + count;
         label.appendChild(document.createTextNode(' ' + textInput.value));
         li.appendChild(inputChkbx);
@@ -53,7 +55,28 @@ function addItem() {
         list.appendChild(li);
         closeNotification();
     }
-
+    
+        
+     for (var i = 0; i < checkboxes.length; i++) {
+        checkboxes[i].onchange = function (){
+            if (this.checked) {
+                btnDelete.style.display = 'block';
+            } else {
+                btnDelete.style.display = 'none';
+            }
+        } 
+        }  
+      
+    function removeItems() {
+        var items = Array.prototype.slice.call(list.childNodes),
+        item;
+        while (item = items.pop()) {
+        if (item.firstChild && item.firstChild.checked) {
+            list.removeChild(item);
+        }
+       }
+    }
+    btnDelete.addEventListener('click', removeItems);
     btnAdd.addEventListener('click', addBtnEvent);
     btnClose.addEventListener('click', closeNotification);
     btnYes.addEventListener('click', addApprove);
@@ -61,22 +84,6 @@ function addItem() {
 
 }
 
-function removeItems(checkbox) {
-    var btnDelete = document.getElementById('btnDelete');
-    checkbox = document.getElementById(checkbox);
-    if (checkbox.checked) {
-        btnDelete.style.display = 'block';
-
-    } else {
-        console.log('not checked');
-        btnDelete.style.display = 'none';
-    }
-
-    btnDelete.addEventListener('click', function() {
-        checkbox.parentNode.parentNode.removeChild(checkbox.parentNode);
-        btnDelete.style.display = 'none';
-    });
-}
 
 window.onload = function () {
     'use strict';
