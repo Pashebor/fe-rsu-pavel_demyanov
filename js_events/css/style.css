@@ -1,0 +1,85 @@
+@font-face {
+    font-family: TomsHandWriten;
+    src: url('../fonts/280747_0_0.ttf');
+}
+
+body{
+    width: 100%;
+    /*font-family: TomsHandWriten !important;*/
+}
+
+.frame{
+    height: 310px;
+    overflow-y: scroll;
+}
+#header{
+    font-family: TomsHandWriten;
+    text-align: center;
+}
+label, ul{
+    font-family: TomsHandWriten;
+    list-style: none;
+    font-size: 18pt;
+    font-weight: 100;
+}
+
+#textInpt{
+    width: 100%;
+    font-family: TomsHandWriten;
+    font-size: 18pt;
+    border: 1px solid black;
+}
+
+#btnAdd, #btnDelete{
+    width: 100%;
+    font-family: TomsHandWriten;
+    font-size: 17pt;
+    padding: 0px;
+}
+
+.popupWindow{
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 10%;
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+    display: none;
+}
+
+.popupWindow h4{
+    text-align: center;
+    font-family: TomsHandWriten;
+    font-size: xx-large;
+}
+.popupWindow hr{
+    margin-top: -5px;
+    border-bottom: 3px solid gray;
+}
+
+.question{
+    font-family: TomsHandWriten;
+    font-size: x-large;
+    text-align: center;
+}
+.popupWindow #btnYes,#btnNo, #btnClose {
+    font-family: TomsHandWriten;
+    font-size: x-large;
+    padding: 0;
+}
+#btnYes{
+    width: 50%;
+    margin-left: 50%;
+}
+#btnClose{
+    width: 100%;
+}
+#btnNo{
+    width: 50%;
+}
+
+#btnDelete{
+    display: none;
+}
