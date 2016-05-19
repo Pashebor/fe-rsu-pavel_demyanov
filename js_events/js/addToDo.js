@@ -10,7 +10,6 @@ function addItem() {
     var popupNothing = document.getElementById('nothing');
     var btnClose = document.getElementById('btnClose');
     var btnDelete = document.getElementById('btnDelete');
-    var checkboxes = document.getElementsByClassName('chkBox');
 
     function countItems(listID) {
         var i = 0, itemsCount = 0;
@@ -48,6 +47,7 @@ function addItem() {
         inputChkbx.type = 'checkbox';
         inputChkbx.id = 'check' + count;
         inputChkbx.className = 'chkBox';
+        inputChkbx.setAttribute('onchange', 'changesForNewChexkBox(this.id)');
         label.htmlFor = 'check' + count;
         label.appendChild(document.createTextNode(' ' + textInput.value));
         li.appendChild(inputChkbx);
@@ -55,17 +55,7 @@ function addItem() {
         list.appendChild(li);
         closeNotification();
     }
-    
-        
-     for (var i = 0; i < checkboxes.length; i++) {
-        checkboxes[i].onchange = function (){
-            if (this.checked) {
-                btnDelete.style.display = 'block';
-            } else {
-                btnDelete.style.display = 'none';
-            }
-        } 
-        }  
+      
       
     function removeItems() {
         var items = Array.prototype.slice.call(list.childNodes),
@@ -84,8 +74,30 @@ function addItem() {
 
 }
 
+function showDeleteButton() {
+    var checkboxes = document.getElementsByClassName('chkBox');
+              
+     for (var i = 0; i < checkboxes.length; i++) {
+        checkboxes[i].onchange = function (){
+            if (this.checked) {
+                btnDelete.style.display = 'block';
+            } else {
+                btnDelete.style.display = 'none';
+            }
+        } 
+        }
+}; 
 
+function changesForNewChexkBox(arg) {
+        var checkedNote = document.getElementById(arg);
+        if (checkedNote.checked) {
+                btnDelete.style.display = 'block';
+            } else {
+                btnDelete.style.display = 'none';
+            }
+    }
 window.onload = function () {
     'use strict';
     addItem();
+    showDeleteButton();
 };
