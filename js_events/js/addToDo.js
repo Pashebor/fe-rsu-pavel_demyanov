@@ -13,18 +13,18 @@ function addItem() {
 
     function countItems(listID) {
         var i = 0, itemsCount = 0;
-        while(listID.getElementsByTagName('li') [i += 1]) {
+        while (listID.getElementsByTagName('li')[i += 1]) {
             itemsCount += 1;
         }
         return itemsCount;
     }
 
     function addBtnEvent() {
-        if (textInput.value === '' || textInput.value === ' '){
+        if (textInput.value === '' || textInput.value === ' ') {
             popupNothing.style.display = 'block';
         } else {
             popup.style.display = 'block';
-            var questText = 'Are you sure you want to add new ToDo item: '+ textInput.value +' ?';
+            var questText = 'Are you sure you want to add new ToDo item: ' + textInput.value + ' ?';
             var questParagraph = document.createElement('p');
             questParagraph.innerHTML = questText;
             quest.appendChild(questParagraph);
@@ -35,7 +35,7 @@ function addItem() {
         popup.style.display = 'none';
         textInput.value = '';
         if (quest.firstChild) {
-           quest.removeChild(quest.childNodes[0]);
+        quest.removeChild(quest.childNodes[0]);
         }
     }
 
@@ -86,7 +86,7 @@ function showDeleteButton() {
             }
         } 
         }
-}; 
+} 
 
 function changesForNewChexkBox(arg) {
         var checkedNote = document.getElementById(arg);
@@ -96,6 +96,7 @@ function changesForNewChexkBox(arg) {
                 btnDelete.style.display = 'none';
             }
     }
+
 window.onload = function () {
     'use strict';
     addItem();
