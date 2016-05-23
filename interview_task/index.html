@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/interview.js"></script>
+    <script type="text/javascript" src="js/buttons.js"></script>
     <title>Interview Task</title>
 </head>
 <body>
  <div ><img class="pic" src="http://payload45.cargocollective.com/1/2/66131/3210212/mickey9x12etsy_860.jpg" alt=""></div>
-    <button id="btn">Кнопка</button>
+    <br>
+    <button id="btn">Circle</button>
+    <button id="roll">Roll</button>
+    <button id="flip">Flip</button>
+    <button id="slide">Slide</button>
+    <button id="scale">Scale</button>
 </body>
-    <script type="text/javascript" src="js/interview.js"></script>
-    <script type="text/javascript">
-      $$('.pic').addCssFeature('width:200px; margin-left: calc(50% - 100px);');
-      $$('.pic').addCssFeatureOnClick('width:200px; margin-left: calc(50% - 100px); box-shadow: 0 5px 10px 0px rgba(0,0,0,0.5);');
-      $$('#btn').addCssFeature('width: 100px; margin-left: calc(50% - 50px)');    
-      $$('#btn').addCssToTarget('.pic', 'width:200px; margin-left: calc(50% - 100px); box-shadow: 0 5px 10px 0px rgba(0,0,0,0.5); border-radius: 100px; height: 200px');
-    </script>
 </html>

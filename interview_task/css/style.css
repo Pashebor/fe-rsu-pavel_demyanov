@@ -1,0 +1,68 @@
+.pic{
+    width:200px;
+    height: 200px;
+    margin-left: calc(50% - 100px); 
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.5);
+    
+}
+@-webkit-keyframes pictureAnimation{
+    0% {border-radius: 0px;}
+  100% {border-radius: 100px;}
+}
+
+@keyframes pictureAnimation{
+    0% {border-radius: 0px;}
+  100% {border-radius: 100px;}
+}
+
+@-webkit-keyframes pictureAnimationBack{
+    0% {border-radius: 100px;}
+  100% {border-radius: 0px;}
+}
+
+@keyframes pictureAnimationBack{
+    0% {border-radius: 100px;}
+  100% {border-radius: 0px;}
+}
+
+/*Roll*/
+@-webkit-keyframes roll{
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes roll{
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+/*FlipY*/
+@-webkit-keyframes flip{
+    from { -webkit-transform: rotateY(0deg); }
+    to { -webkit-transform: rotateY(180deg); }
+}
+
+@keyframes flip{
+    from {transform:rotateY(0deg);}
+    to {transform:rotateY(180deg);}
+}
+/*FlipX and slide left*/
+@-webkit-keyframes flipX{
+    from { -webkit-transform: rotateX(0deg); margin-left: calc(50% - 100px);}
+    to { -webkit-transform: rotateX(180deg); margin-left: calc(50% + 100px);}
+}
+
+@keyframes flipX{
+    from {transform:rotateX(0deg); margin-left: calc(50% - 100px);}
+    to {transform:rotateX(180deg); margin-left: calc(50% + 100px);}
+}
+/*Scale*/
+@-webkit-keyframes scale{
+    from { -webkit-transform: scale(1); margin-top: 0px;}
+    to { -webkit-transform: scale(1.5); margin-top: 50px;}
+}
+
+@keyframes scale{
+    from {transform:scale(1); margin-top: 0px;}
+    to {transform:scale(1.5); margin-top: 50px;}
+}

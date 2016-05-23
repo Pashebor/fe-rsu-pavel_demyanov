@@ -19,11 +19,12 @@ function $$(arg) {
                 });
             }
             
+            
             function addCssToTarget(target, style) {
                 var targetThis = document.querySelector(target);
-                var styleText = style;
+                var newStyleText = style;
                 element.addEventListener('click', function() {
-                    targetThis.style.cssText = styleText;
+                    targetThis.style.cssText = newStyleText;
                 });
             }
             return{
